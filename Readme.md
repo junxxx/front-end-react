@@ -1,5 +1,11 @@
 # 前端学习
 ## 安装nvm
+
+npm 国内加速
+```
+npm config set registry https://registry.npmmirror.com
+```
+安装node版本
 ```
 nvm install 22.12
 nvm use 22.12
@@ -10,10 +16,24 @@ npm init
 npm install react react-dom
 npm install vite -D
 ```
-add "dev": "vite" into package.json
+add {"dev": "vite"} to scripts in package.json
 
 new index.html
 
 new index.js
 
 本地运行: npm run dev
+
+## ES6
+### 模块化
+通过以下方式，启用
+```
+<script type="module" src="/index.js"></script>
+```
+
+Module 可以理解为其它编程语言的Package or Namespace.
+
+`export` and `import` 就够用了。
+
+## React
+### Component

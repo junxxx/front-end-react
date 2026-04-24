@@ -9,6 +9,9 @@ npm config set registry https://registry.npmmirror.com
 ```
 nvm install 22.12
 nvm use 22.12
+-- 
+nvm alias default 22.12
+nvm use default
 ```
 ## 初始化项目
 ```
@@ -23,6 +26,10 @@ new index.html
 new index.js
 
 本地运行: npm run dev
+
+enable jsx 
+
+npm install @vitejs/plugin-react
 
 ## ES6
 ### 模块化
@@ -47,4 +54,4 @@ Object in Browser Environment
 `window.document` is gateway to DOM (Document Object Model)
 
 ### Function
-function is object in JS, so we can everything with it that object support.
+function is object in JS, so we can do everything with it that object support.

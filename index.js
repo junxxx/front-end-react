@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import { print } from "./tool.js";
-
-print("Hello")
+import { localTest } from "./test.js";
+import localDefaultTest from "./test.js";
 
 const App = () => {
+  localTest();
+  localDefaultTest();
   return React.createElement("h1", null, "Hello React");
 };
 

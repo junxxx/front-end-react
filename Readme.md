@@ -37,3 +37,14 @@ Module 可以理解为其它编程语言的Package or Namespace.
 
 ## React
 ### Component
+
+## JS知识
+### Object
+Object in Browser Environment
+
+`window`
+
+`window.document` is gateway to DOM (Document Object Model)
+
+### Function
+function is object in JS, so we can everything with it that object support.

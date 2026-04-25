@@ -55,3 +55,5 @@ Object in Browser Environment
 
 ### Function
 function is object in JS, so we can do everything with it that object support.
+## TailwindCSS
+[Installing Tailwind CSS as a Vite plugin](https://tailwindcss.com/docs/installation/using-vite)
